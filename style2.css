@@ -1,0 +1,186 @@
+
+
+/*
+home buttons in home for students
+*/
+.homeforstudents{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.homeforstudents a{
+   float: left;
+   display:block;
+   color: deepskyblue;
+   padding:14px 16px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.homeforstudents a:hover{
+   color:#575e6e;
+}
+
+.homeforstudents a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+.loginandsignin{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.logout a{
+   float: right;
+   display:block;
+   color:#083450;
+   padding:8px 12px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.logout a:hover{
+   background-color: white;
+   color:#9a9398;
+}
+
+.logout a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+
+.Image img{
+  
+   background-repeat: no-repeat;
+   background-image: url('4.jpg');
+   margin-left: 85px;
+   
+}
+
+
+
+.top2navi{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.top2navi a{
+   float: right;
+   display:block;
+   color:#083450;
+   padding:8px 12px;
+    font-family: 'Segoe UI Emoji';
+   text-decoration: none;
+   font-size: 15px;
+
+
+}
+
+.top2navi a:hover{
+   background-color: white;
+   color:#9a9398;
+}
+
+.top2navi a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+
+.classname img{
+
+  background-image: url('classname.png');
+  background-repeat: no-repeat;
+  margin-top:30px;
+
+}
+/*
+log out image
+*/
+
+.logout img{
+  background-repeat: no-repeat;
+  background-image: url('44.png');
+  margin-left: 96%;
+  margin-top: -3%;
+}
+
+/*
+subjects image link
+*/
+
+.containers {
+  background-color: white;
+  margin-top: 10px;
+  height: 800px;
+  padding-top: 40px;
+  margin-top: -65px;
+
+
+}
+
+
+
+
+#English{
+  
+  margin-left:400px;
+  width:auto;
+  height:246px;
+  transition: background-image 1s ease-in-out;
+  background-image: url('english3.png');
+  background-repeat: no-repeat;
+}
+
+#English:hover{
+  background-image:url('english2.png');
+  background-repeat: no-repeat;
+}
+#Math {
+ margin-left:400px;
+  width:auto;
+  height:246px;
+  transition: background-image 1s ease-in-out;
+  background-image: url('math.png');
+  background-repeat: no-repeat;
+}
+#Math:hover{
+  background-image:url('math1.png');
+  background-repeat: no-repeat;
+}
+#Science {
+  margin-left:400px;
+  width:auto;
+  height:246px;
+  transition: background-image 1s ease-in-out;
+  background-image: url('science.png');
+  background-repeat: no-repeat; 
+}
+#Science:hover{
+  background-image:url('science1.png');
+  background-repeat: no-repeat;
+}
+/*
+image circle at students home
+*/
+
+.picturecircle{
+  background-image: url('city.png');
+  background-repeat: no-repeat;
+ margin-top:-134px;
+
+}

@@ -1,0 +1,331 @@
+/*
+english stream
+*/
+
+.englishstream{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.englishstream a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.englishstream a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.englishstream a:active{
+   color:white;
+
+}
+.headerpictureenglish img{
+
+   background-repeat:no-repeat;
+   background-image: url('77.jpg');
+   width: 100%;
+}
+
+.backbuttonclassscience img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+
+
+/*
+english classmates
+*/
+
+.englishclassmates{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.englishclassmates a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.englishclassmates a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.englishclassmates a:active{
+   color:white;
+
+}
+
+.classmateenglishpicture img{
+
+   background-repeat:no-repeat;
+   background-image: url('77.jpg');
+   width: 100%;
+}
+
+.backbuttonclassmateenglish img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+
+
+
+
+/*
+math stream
+*/
+
+.mathstream{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.mathstream a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.mathstream a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.mathstream a:active{
+   color:white;
+
+}
+.headerpicturemath img{
+
+   background-repeat:no-repeat;
+   background-image: url('10.jpg');
+   width: 100%;
+}
+
+.buttonbackclass img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+/*
+math classmates
+*/
+
+
+.mathclassmates{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.mathclassmates a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.mathclassmates a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.mathclassmates a:active{
+   color:white;
+
+}
+
+.classmatemathpicture img{
+
+   background-repeat:no-repeat;
+   background-image: url('10.jpg');
+   width: 100%;
+}
+
+.backbuttonclassmatemath img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+
+
+
+
+
+/*
+Science Stream
+*/
+.sciencestream{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.sciencestream a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.sciencestream a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.sciencestream a:active{
+   color:white;
+
+}
+.headerpicturescience  img{
+
+   background-repeat:no-repeat;
+   background-image: url('23.jpg');
+   width: 100%;
+}
+
+.buttonbackclassscience img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+
+
+/*
+science classmates
+*/
+
+.scienceclassmates{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.scienceclassmates a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.scienceclassmates a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.scienceclassmates a:active{
+   color:white;
+
+}
+
+.classmatesciencepicture img{
+
+   background-repeat:no-repeat;
+   background-image: url('23.jpg');
+   width: 100%;
+}
+
+.backbuttonclassmatescience img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+/*
+padding for streams
+*/
+.streamclasspaddingenglish{
+
+    width:100%;
+    height:100% ;
+    background-color:#f0f2f2;
+
+}
+
+.streamclasspaddingmath{
+
+    width:100%;
+    height:100% ;
+    background-color:#f0f2f2;
+
+}
+.streamclasspaddingscience{
+
+    width:100%;
+    height:100% ;
+    background-color:#f0f2f2;
+
+}
+
+/*
+small padding for streams
+*/
+.smallstreamclasspaddingmath{
+
+    width:56%;
+    height:29% ;
+    background-color:lightgray;
+    margin-top: -41%;
+    margin-left: 23%;
+
+
+}

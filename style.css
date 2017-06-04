@@ -1,0 +1,892 @@
+
+/*
+homebuttons for nonregister
+*/
+.homeforhome{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.homeforhome a{
+   float: left;
+   display:block;
+   color: lightgray;
+   padding:14px 16px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.homeforhome a:hover{
+   background-color: #0099CC;
+   color:white;
+}
+
+.homeforhome a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+
+
+/*
+home for about
+*/
+.homeabout{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.homeabout a{
+   float: left;
+   display:block;
+   color: lightgray;
+   padding:14px 16px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.homeabout a:hover{
+   background-color: #0099CC;
+   color:white;
+}
+
+
+
+
+
+
+
+/*
+home Image for non register
+*/
+
+#homeimage {
+  margin:-5px auto;
+  width:auto;
+  height:855px;
+  transition: background-image 1s ease-in-out;
+  background-image:url('66.jpg');
+  background-repeat: no-repeat;
+}
+
+#homeimage:hover {
+  background-image:url('67.jpg');
+  background-repeat: no-repeat;
+}
+/*
+padding and words
+*/
+.afterImage{
+
+  width:1890px;
+  height:400px;
+  background-color:#f0f2f2;
+  
+}
+
+.comeon{
+
+  font-family: 'Leelawadee UI Semilight';
+  color: deepskyblue;
+}
+
+.comewords{
+  font-size: 54px;
+  text-align: left;
+  margin-left: 331px;
+  margin-top: -279px;
+ 
+}
+.want{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 925px;
+  margin-top: -20px;
+
+}
+/*
+2nd padding words
+*/
+.afterImage2{
+  width:1890px;
+  height:600px;
+  background-color:deepskyblue;
+  margin-top: 97px;
+  /*
+  2nd words padding
+  */
+
+}
+
+.afterImage2words{
+  font-family: 'Leelawadee UI Semilight';
+
+}
+
+.practice{
+  font-size: 27px;
+  color: white;
+  margin-top: -319px;
+  margin-left: 249px;
+
+}
+.howelearning{
+  font-size: 44px;
+  color: #0099cc;
+  margin-top: -299px;
+  margin-left: 1191px;
+  font-family:'Leelawadee UI' ;
+}
+.hereby{
+  font-size: 27px;
+  color: white;
+  margin-top: 74px;
+  margin-left: 1192px;
+
+}
+.practice2{
+  font-size: 44px;
+  color: #0099cc;
+  margin-top: -268px;
+  margin-left: 423px;
+  font-family:'Leelawadee UI' ;
+
+
+}
+/*
+3rd padding
+*/
+.whitepadding3{
+   width:1890px;
+   height:567px;
+   background-color:#f0f2f2;
+   margin-top: 319px;
+ 
+
+}
+.forever{
+  font-family:'Leelawadee UI';
+  font-size: 50px;
+  color: deepskyblue;
+  margin-top: -428px;
+  margin-left: 551px;
+  text-align: left
+
+
+}
+/*
+4rth padding
+*/
+
+.darkbluepadding4{
+   width:1894px;
+   height:457px;
+   background-color:#28384a;
+   margin-left: -3px;
+   margin-top: 90px;
+}
+.ourmission{
+    font-family:'Segoe UI '; 
+    font-size: 21px;
+    margin-top: -375px;
+    color: white;
+    margin-left: 189px;
+
+
+}
+/*
+admin button
+*/
+.adminbutton{
+  font-size: 20px;
+  padding: 13px 35px;
+  border:2px solid deepskyblue;
+  border-radius: -11px -24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+  margin-left: 844px;
+  font-family: 'Leelawadee UI';
+  color: deepskyblue;
+}
+/*
+admin popup
+*/
+
+.adminbutton1{
+
+  padding: 35px;
+  text-align: center;
+  margin-left: -100%;
+}
+.adminbutton{
+  font-size: 3em;
+  padding: 13px 35px;
+  border:2px solid deepskyblue;
+  border-radius: -11px -24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+  margin-left: 844px;
+  font-family: 'Leelawadee UI';
+  color: deepskyblue;
+}
+.adminbutton:hover{
+  background-color:deepskyblue;
+  color: white;
+}
+.overlay2{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,0.7);
+  transition:opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay2:target{
+  visibility: visible;
+  opacity: 1;
+}
+.popup2{
+  padding: 364px 244px;
+  background:#fff;
+  border-radius: 37px;
+  width: 35%;
+  height: 175px;
+  position: left;
+  transition:all 5s ease-in-out;
+  margin-left: 370px;
+  margin-top: 18px;
+
+}
+
+
+.popup2.close{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition:all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup2.close:hover{
+  color: #06D85F;
+}
+@media screen and (max-width: 700px){
+  .adminbutton{
+    width: 70%;
+  }
+  .popup2{
+    width: 70%;
+  }
+}
+
+/*
+line in the last hahhah
+*/
+.Allrightserve{
+
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: 56px;
+  margin-left: 193px;
+}
+.allabout{
+   font-family: 'Segoe UI';
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: -305px;
+  margin-left: 59%;
+
+}
+.allcontacts{
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: -186px;
+  margin-left: 70%;
+}
+.allsubjects{
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: -133px;
+  margin-left: 82%;
+
+}
+
+
+/*
+pop up admin
+*/
+input[type=textt], input[type=password] {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.account2{
+    font-family: 'Leelawadee UI';
+    font-size: 20px;
+     margin-left: 20px;
+}
+
+
+.cancelbutton2 {
+    width: 52%;
+    background-color: dimgray;
+    margin-left: -1px;
+    height: 8%;
+    border-radius: 15px;
+    margin-top: 17px;
+}
+
+.submit2 {
+    float: left;
+    width: 52%;
+    margin-left: -16px;
+    height: 8%;
+    border-radius: 15px;
+    margin-top: 115px;
+}
+
+
+.admincontainer {
+    padding: 16px;
+}
+
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbutton2, .submit2 {
+        width: 100%;
+    }
+}
+
+.welcome img{
+    background-image: url('wwelcomebackadmin.png');
+    background-repeat: no-repeat;
+    margin-left: -149px;
+    margin-top: -216px;
+}
+
+
+/*
+inside pop up admin
+*/
+
+input[type=text], input[type=password] {
+    width: 89%;
+    padding: 22px 8px;
+    margin: 13px -27px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: dimgrey;
+    margin-left: 45px;
+}
+
+
+.buttons {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.cancelbutton3 {
+    width: 41%;
+    background-color: dimgray;
+    margin-left: 17px;
+    height: 35%;
+    border-radius: 15px;
+    margin-top: -2px;
+    font-family: 'Leelawadee UI' ;
+    font-size: 10px;
+}
+
+.submit3 {
+    float: left;
+    width: 43%;
+    margin-left: 41px;
+    height: 35%;
+    border-radius: 17px;
+    margin-top: 82px;
+    background-color: deepskyblue;
+    color: dimgray;
+}
+
+
+.admincontainer {
+    padding: 16px;
+}
+
+.account3{
+    font-family: 'Leelawadee UI';
+    font-size: 20px;
+     margin-left: 20px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbutton, .signupbutton {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pop up
+*/
+.box{
+  width: 40%;
+  margin: 0 auto;
+  background:rgba(255,255,255,0.2);
+  padding: 35px;
+  border:2px solid #fff;
+  border-radius:20px 50px;
+  background-clip:padding-box;
+  text-align: center;
+}
+.button1{
+  font-size: 3em;
+  padding: 13px 35px;
+  border:2px solid deepskyblue;
+  border-radius: -11px -24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+  margin-left: 844px;
+  font-family: 'Leelawadee UI';
+  color: deepskyblue;
+}
+.button1:hover{
+  background-color:deepskyblue;
+  color: white;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,0.7);
+  transition:opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+.popup{
+  padding: 364px 244px;
+  background:#fff;
+  border-radius: 37px;
+  width: 35%;
+  height: 175px;
+  position: left;
+  transition:all 5s ease-in-out;
+  margin-left: 370px;
+  margin-top: 18px;
+
+}
+
+
+.popup.close{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition:all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup.close:hover{
+  color: #06D85F;
+}
+@media screen and (max-width: 700px){
+  .buttonbox{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+inside pop up
+*/
+.bepart2 img{
+  background-repeat: no-repeat;
+  background-image: url('bepart2.png');
+  margin-left: -92px;
+}
+input[type=textx], input[type=password] {
+    width: 89%;
+    padding: 22px 8px;
+    margin: 13px -27px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: dimgrey;
+    margin-left: 45px;
+}
+
+
+.buttons2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.cancelbutton2 {
+    padding: 14px ;
+    background-color: dimgray;
+    float: left;
+    width: 46%;
+    margin-left: 49px;
+    margin-top: -2px;
+    height: 27%;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.signupbutton2 {
+    padding: 14px ;
+    background-color: deepskyblue;
+    float: left;
+    width: 46%;
+     height: 27%;
+    margin-top: -2px;
+    margin-left: 0px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.containers1 {
+    padding: -10px;
+    margin-top:-365px;
+}
+
+.lesson2 {
+    text-align: left;
+    margin-left: 49px;
+    color: dimgray;
+    font-family: 'Leelawadee UI';
+    font-size: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+log in and sign in buttons in home for non register
+*/
+.loginandsignin{
+   
+   background-color: white;
+   overflow: hidden;
+
+}
+
+.loginandsignin a{
+   float: right;
+   display:block;
+   color:#083450;
+   padding:8px 12px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.loginandsignin a:hover{
+   background-color: white;
+   color:#9a9398;
+}
+
+.loginandsignin a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+
+/*
+icons
+*/
+.iconcontainer {
+   margin-top: -889px;
+   margin-left: 134px;
+}
+
+.facebook img{
+   background-image: url('facebook.jpg');
+   background-repeat: no-repeat;
+   margin-top:780px;
+   margin-left: 704px;
+}
+
+.twitter img{
+   background-image: url('twitter.png');
+   background-repeat: no-repeat;
+   margin-top: -63px;
+   margin-left: 782px
+}
+
+.youtube img{
+    background-image: url('youtube.png');
+   background-repeat: no-repeat;
+   margin-top: -645px;
+   margin-left: 858px;
+}
+
+.instag img{
+    background-image: url('instag.jpg');
+   background-repeat: no-repeat;
+   margin-top: -700px;
+   margin-left: 934px;
+}
+
+.words{
+
+   color: white;
+   text-align: left;
+   font-family: 'Arial';
+   font-size: 17px;
+   margin-left: 858px;
+   margin-top: 171px;
+}
+
+
+
+
+
+
+
+.bepart img{
+  background-repeat: no-repeat;
+  background-image: url('bepart.png');
+}
+
+
+/*
+container for about
+*/
+
+.containerwords{
+   margin-left: 305px;
+   margin-top: 97px;
+   font-family: 'Leelawadee UI Semilight';
+}
+
+.whatiselearning{
+  font-size: 35px;
+  color: deepskyblue;
+
+}
+.elearning{
+  font-size: 30px;
+  color:#969595;
+}
+
+.Mission{
+
+  font-size: 35px;
+  color: deepskyblue;
+}
+.themissions{
+  font-size: 20px;
+  color: #ee0854;
+
+}
+
+.whatismission{
+  font-size: 30px;
+  color:#969595;
+}
+
+.Values{
+  font-size: 35px;
+  color: deepskyblue;
+}
+.thevalues{
+ font-size: 20px;
+  color: #ee0854;
+}
+.whatisvalues{
+  font-size: 30px;
+  color:#969595;
+}
+.create{
+  font-size: 20px;
+  color: #ee0854;
+}
+.thecreate{
+  font-size: 30px;
+  color:#969595;
+}
+.Makeitfun{
+  font-size: 20px;
+  color:#ee0854;
+}
+.whatisMakeitfun{
+  font-size: 30px;
+  color:#969595;
+}
+
+/*
+show if  the passwords are wrong
+*/
+.wrong{
+  padding-top: 15px 0px 15px 0px;
+  color:deepskyblue;
+}
+
+/*
+darkblue padding about
+*/
+
+.paddingdarkblue{
+   width:1997px;
+   height:457px;
+   background-color:#28384a;
+   margin-left: -100px;
+}
+
+.bepartofelearning{
+    font-family: 'Segoe UI Black';
+    text-align: left;
+    margin-top: -426px;
+}
+
+.bepartofelearningwords{
+  font-size: 61px;
+  color: white;
+  margin-left: 373px;
+}
+.comprehensive{
+  font-size: 30px;
+  color: white;
+  font-family:'Leelawadee UI Semilight';
+  margin-top: -30px;
+  margin-left: 647px; 
+}

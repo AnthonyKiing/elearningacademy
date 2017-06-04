@@ -1,0 +1,140 @@
+.homeforcontacts a{
+   float: left;
+   display:block;
+   color: lightgray;
+   padding:14px 16px;
+    font-family: 'Arial';
+   text-decoration: none;
+   font-size: 18px;
+
+
+}
+
+.homeforcontacts a:hover{
+   background-color: #0099CC;
+   color:white;
+}
+
+.homeforcontacts a:active{
+   background-color: deepskyblue;
+   color:white;
+}
+
+/*
+icons
+*/
+.iconcontainer {
+   margin-top: -591px;
+}
+
+.facebook img{
+   background-image: url('facebook.jpg');
+   background-repeat: no-repeat;
+   margin-top:840px;
+   margin-left: 782px;
+}
+
+.twitter img{
+   background-image: url('twitter.png');
+   background-repeat: no-repeat;
+   margin-top: -684px;
+   margin-left: 862px
+}
+
+.youtube img{
+    background-image: url('youtube.png');
+   background-repeat: no-repeat;
+   margin-top: -645px;
+   margin-left: 943px;
+}
+
+.instag img{
+    background-image: url('instag.jpg');
+   background-repeat: no-repeat;
+   margin-top: -700px;
+   margin-left: 1024px;
+}
+
+/*padding darkblue contactus
+*/
+.paddinggray{
+
+   width:1997px;
+   height:323px;
+   background-color:#28384a;
+   margin-left: -100px;
+   margin-top: -281px;
+}
+
+
+/*darkblue padding up*/
+/*.darkbluepadding{
+   font-family: 'Arial';
+  
+   margin-top: 100px;
+   margin-left: 95px;
+}
+.courses{
+   font-size: 28px; 
+   color:#28384a;
+}
+.courseses{
+   font-size:25px;
+   color:#969595;
+}
+.helps{
+   font-size: 28px; 
+   color:#28384a;
+}
+*/
+
+.darkpadding{
+   width:1997px;
+   height:357px;
+   background-color:#28384a;
+   margin-left: -100px;
+   margin-top: 31px;
+}
+
+/*
+div words any comments and suggestions?
+*/
+.words{
+
+   color: white;
+   text-align: center;
+   font-family: 'Arial';
+   font-size: 26px;
+
+}
+.divwords{
+   text-align: center;
+}
+/*
+header @ 1st dark padding after home about and contactus
+*/
+.headerdarkpaddingwords{
+   font-size: 59px;
+   margin-top:20px;
+   color: white;
+   text-align: center;
+   font-family: 'Leelawadee UI Semilight';
+}
+.underheaderdarkpaddingwords{
+   font-size: 25px;
+   margin-top:-66px;
+   color: white;
+   text-align: center;
+   font-family: 'Leelawadee UI Semilight';
+
+}
+/*
+box picture after the header admin
+*/
+.boxpicture img{
+   background-image: url('box.png');
+   background-repeat: no-repeat;
+   margin-top: 137px;
+   margin-left: 332px;
+
+}

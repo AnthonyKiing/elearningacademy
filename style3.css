@@ -1,0 +1,174 @@
+#pagewrap{
+   width: 800px;
+   margin: 0 auto;
+}
+
+
+
+
+.picture img{
+
+   background-repeat:no-repeat;
+   background-image: url('23.jpg');
+   width: 100%;
+}
+
+.picture2 img{
+
+   background-repeat:no-repeat;
+   background-image: url('10.jpg');
+   width: 100%;
+}
+
+
+.picture3 img{
+
+   background-repeat:no-repeat;
+   background-image: url('77.jpg');
+   width: 100%;
+}
+
+
+
+.topnavi{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.topnavi a{
+   float: center;
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+   
+
+
+}
+
+.topnavi a:hover{
+  
+   color:#136eea;
+   text-align: center;
+}
+
+.topnavi a:active{
+   color:white;
+
+}
+
+
+.mathbuttons{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.mathbuttons a{
+   float: center;
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+   
+
+
+}
+
+.mathbuttons a:hover{
+  
+   color:#ea13c9;
+   text-align: center;
+}
+
+.mathbuttons a:active{
+   color:white;
+
+}
+
+.englishbuttons{
+   
+   background-color: deepskyblue;
+   overflow: hidden;
+   margin-top: -4px;
+   
+
+}
+
+.englishbuttons a{
+   display:inline-block;
+   color: white;
+   padding:24px 19px;
+   font-family: 'Arial';
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.englishbuttons a:hover{
+  
+   color:yellow;
+   text-align: center;
+}
+
+.englishbuttons a:active{
+   color:white;
+
+}
+
+
+
+
+
+
+.buttonclass img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+
+.buttonclass2 img{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px -950px;
+   position: fixed;
+
+}
+
+
+.back img
+{
+   background-image: url('back.png');
+   background-repeat: no-repeat;
+   margin: 5px 0px 0px 5px;
+   position: fixed;
+}
+/*
+file uploading design
+*/
+
+.activities{
+    width: 30%;
+    height: 10%;
+    background-color: white;
+    border-color: dimgrey;
+    
+}
+.submit{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    border-color: dimgrey;
+}
+
